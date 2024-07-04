@@ -57,4 +57,13 @@
     ````
 8. `php artisan config:cache`<br/><br/>
 9. `php artisan migrate`<br/><br/>
-10. `php artisan db:seed --class="Imrancse94\Grocery\database\seeders\DatabaseSeeder"`
+10. `php artisan db:seed --class="Imrancse94\Grocery\database\seeders\DatabaseSeeder"`<br/><br/>
+11. After successfully installation run `php artisan serve` and visit `http://<domain-url>/grocery`
+
+### Note:
+You can check the repo `https://github.com/imrancse94/demo-pkg-test.git`
+I have installed the package in a fresh laravel project and added one feature test
+`php artisan test`<br/><br/>
+
+**Live url** `https://test.imranwebs.dev/grocery`
+
