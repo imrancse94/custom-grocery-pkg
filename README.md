@@ -63,6 +63,6 @@
 ### Note:
 You can check the repo [https://github.com/imrancse94/demo-pkg-test.git](https://test.imranwebs.dev/grocery)
 I have installed the package in a fresh laravel project and added one feature test
-`php artisan test`<br/>
+`php artisan test --filter=PreOrderTest`<br/>
 
 **Live url** [https://test.imranwebs.dev/grocery](https://test.imranwebs.dev/grocery)
