@@ -66,3 +66,5 @@ I have installed the package in a fresh laravel project and added one feature te
 `php artisan test --filter=PreOrderTest`<br/>
 
 **Live url** [https://test.imranwebs.dev/grocery](https://test.imranwebs.dev/grocery)
+
+*The advantage of this package is that you can customize UI as per as your requirement*
