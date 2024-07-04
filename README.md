@@ -52,9 +52,9 @@
    ````
       VITE_GOOGLE_RECAPTCHA_KEY=""
       GOOGLE_RECAPTCHA_SECRET=""
-      ADMIN_EMAIL=""
+      ADMIN_EMAIL="user@admin.com"
       DB_CONNECTION=pgsql
     ````
 8. `php artisan config:cache`<br/><br/>
-9. `php artisa make:migrate`<br/><br/>
+9. `php artisan migrate`<br/><br/>
 10. `php artisan db:seed --class="Imrancse94\Grocery\database\seeders\DatabaseSeeder"`
