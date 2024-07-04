@@ -1,0 +1,36 @@
+{
+    "name": "imrancse94/grocery",
+    "version": "1.0.3",
+    "description": "This is test library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Imrancse94\\Grocery\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Imran Hossain",
+            "email": "imrancse94@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Imrancse94\\Grocery\\GroceryServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "post-update-cmd": [
+
+        ],
+        "post-install-cmd": [
+            "@php artisan vendor:publish --tag=grocery"
+        ]
+    }
+}

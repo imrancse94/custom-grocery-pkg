@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+
+    .active-link{
+        @apply flex items-center px-6 py-2 mt-4 text-gray-100 bg-gray-700 bg-opacity-25
+    }
+
+    .inactive-link{
+        @apply flex items-center px-6 py-2 mt-4 text-gray-500 hover:bg-gray-700 hover:bg-opacity-25 hover:text-gray-100
+    }
+
+    .active-paginate-link{
+        @apply px-2 py-1 text-sm text-blue-500 rounded-md dark:bg-gray-800 bg-blue-100/60
+    }
+
+    .inactive-paginate-link{
+        @apply px-2 py-1 text-sm text-gray-500 rounded-md dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100
+    }
+
+    .pointer.active.desc:after {
+        content: "▲";
+    }
+    .pointer.active.asc:after {
+        content: "▼";
+    }
+}
