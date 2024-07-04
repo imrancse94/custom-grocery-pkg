@@ -48,10 +48,13 @@
        }
 
       ```
-7. Add 3 variables in `.env` file  
+7. Add 4 variables in `.env` file  
    ````
       VITE_GOOGLE_RECAPTCHA_KEY=""
       GOOGLE_RECAPTCHA_SECRET=""
       ADMIN_EMAIL=""
+      DB_CONNECTION=pgsql
     ````
-8. `php artisan config:cache`
+8. `php artisan config:cache`<br/><br/>
+9. `php artisa make:migrate`<br/><br/>
+10. `php artisan db:seed --class="Imrancse94\Grocery\database\seeders\DatabaseSeeder"`
