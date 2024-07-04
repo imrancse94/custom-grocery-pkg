@@ -27,7 +27,7 @@
         ],
     });
    ``` 
-   6. Install tailwindcss `npm install -D tailwindcss && npx tailwindcss init` and add necessary configuration into `tailwind.config.js` like below<br/>
+   6. Install tailwindcss `npm install -D tailwindcss postcss autoprefixer && npx tailwindcss init -p` and add necessary configuration into `tailwind.config.js` like below<br/>
        ```
        export default {
            content: [
