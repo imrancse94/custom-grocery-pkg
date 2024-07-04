@@ -49,7 +49,7 @@
                             <Button :loading="isSubmitting" label="Submit" class="block w-full py-3" />
                         </div>
                         <div class="text-center">
-                            <Link class="underline text-blue-700" :href="{ name: 'login' }">
+                            <Link class="underline text-blue-700" href="/login">
                             User Login
                             </Link>
                         </div>
